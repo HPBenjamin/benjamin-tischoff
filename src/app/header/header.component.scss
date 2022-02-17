@@ -1,10 +1,12 @@
 .head {
+    position: fixed;
     width: 100vw;
     height: 70px;
     display: flex;
-    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
-   
-
+    box-shadow: 0 1px 3px #fff3;
+    padding-bottom: 14px;
+    padding-top: 16px;
+    
     img {
         margin-right: 80px;
         width: 40px;
@@ -13,6 +15,7 @@
 
         p {
             color: white;
+            
         }
     
 
@@ -28,7 +31,8 @@
         margin-left: 40px;
         color: white;
         text-decoration: none;
-        
+        font-family: sans-serif;
+        font-size: x-small;
         
     }
 }
