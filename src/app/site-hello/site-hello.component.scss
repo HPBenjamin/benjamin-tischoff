@@ -4,6 +4,7 @@
     align-items: center;
     height: calc(75vh - 100px);
     margin-top: 67px;
+    
     h1 {
         color: rgb(216, 216, 216);
         width: 100%;
@@ -12,13 +13,13 @@
         font-size: xx-large;
         margin-bottom: 16px;
         line-height: 150%;
-
+        margin-right: 25px;
         .name-color {
             color: rgb(255, 50, 111);
         }
 
         .e-color {
-            color: rgb(72, 255, 170);
+            color: rgb(49, 252, 184);
         }
     }
 

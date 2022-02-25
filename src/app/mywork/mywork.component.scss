@@ -1,0 +1,70 @@
+.mywork-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-top: 30px;
+
+    h1 {
+        font-family: sans-serif;
+        color: rgb(216, 216, 216);
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: x-large;
+        z-index: 1;
+        margin-bottom: 32px;
+    }
+}
+.first-row {
+    display: flex;
+}
+
+
+
+
+
+.computer {
+    width: 249px;
+    height: 260px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    background-color: white;
+    margin-top: -45px;
+}
+
+.pollo {
+    width: 230px;
+    height: 138px;
+    margin-bottom: 81px;
+    margin-left: -239px;
+    transform: scale(0.7);
+    z-index: 5;
+}
+
+.kochwelt {
+    width: 230px;
+    height: 138px;
+    margin-bottom: 81px;
+    margin-left: -239px;
+    transform: scale(0.7);
+    z-index: 5;
+}
+
+.kanban {
+    width: 230px;
+    height: 138px;
+    margin-bottom: 81px;
+    margin-left: -239px;
+    transform: scale(0.7);
+    z-index: 5;
+}
+
+.tictactoe {
+    width: 230px;
+    height: 138px;
+    margin-bottom: 81px;
+    margin-left: -239px;
+    transform: scale(0.7);
+    z-index: 5;
+}
