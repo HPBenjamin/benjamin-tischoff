@@ -45,13 +45,32 @@ h2 {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
     .journey {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        max-width: 140px;
+        height: auto;
         
+        h4 {
+            font-family: sans-serif;
+            color: rgb(216, 216, 216);
+            margin-top: 16px;
+            margin-bottom: 8px;
+            text-align: center;
+            font-size: small;
+        }
+
+        p {
+            font-family: sans-serif;
+            color: rgb(216, 216, 216);
+            margin-bottom: 8px;
+            font-size: x-small;
+            text-align: center;
+        }
 
         img {
             width: 35px;
@@ -62,3 +81,4 @@ h2 {
         }
     }
 }
+
